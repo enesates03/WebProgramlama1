@@ -1,0 +1,255 @@
+
+@font-face{
+	font-family: Soleil;
+	src: url("font/Soleil.woff");
+}
+
+@font-face{
+	font-family: Soleil_Bold;
+	src: url("font/Soleil-Bold.woff");
+}
+
+@font-face{
+	font-family: Soleil_Medium;
+	src: url("font/Soleil-Semibold.woff");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  height: 100vh;
+  font-family: "Soleil",Helvetica,Arial,sans-serif;
+  background: url("img/background.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p{
+    font-family: "Soleil",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.card{
+	position: relative;
+	width: 1400px;
+	height: 650px;
+	margin: 20px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 20px;
+}
+
+.card .card-left{
+	position: relative;
+	width: 500px;
+	height: 650px;
+	border-radius: 20px;
+	border-color: green;
+	margin-left: 20px;
+	background-color: #fff;
+	display: grid;
+	z-index: 2;
+	box-shadow: -5px 2px 5px #aaaaaa;
+}
+
+.card .card-right{
+	position: relative;
+	width: 900px;
+	height: 590px;
+	border-radius: 20px;
+	margin-left: -20px;
+	background-color: #fff;
+	box-shadow: 5px 2px 5px #aaaaaa;
+}
+
+.profile-card{
+  width: 500px;
+  height: 650px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.profile-card2{
+  width: 900px;
+  height: 700px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.card-header{
+  padding: 100px 40px 200px;
+}
+
+.card-header2{
+  background: #f8f8f8;
+  padding: 10px 40px 10px;
+}
+
+.name2{
+  color: #222;
+  font-family: "Soleil",Helvetica,Arial,sans-serif;
+  text-align: left;
+  font-size: 28px;
+  font-weight: normal;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  letter-spacing: 0.05em;
+}
+
+.name3{
+  color: #222;
+  font-family: "Soleil",Helvetica,Arial,sans-serif;
+  text-align: left;
+  font-size: 28px;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  letter-spacing: 0.05em;
+}
+
+.name2-sub{
+  color: #222;
+  font-family: "Soleil",Helvetica,Arial,sans-serif;
+  text-align: left;
+  font-size: 19px;
+  font-weight: normal;
+  padding-bottom: 2px;
+}
+
+.name3-sub{
+  color: #222;
+  font-family: "Soleil",Helvetica,Arial,sans-serif;
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 40px;
+}
+
+.pic{
+  display: inline-block;
+  padding: 5px;
+  background: linear-gradient(130deg, #00A82D, #E6E6DC, #7B7C51); /*#74b9ff, #e66767*/
+  margin: auto;
+  border-radius: 50%;
+  background-size: 200% 200%;
+  animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient{
+  25%{
+    background-position: left bottom;
+  }
+  50%{
+    background-position: right bottom;
+  }
+  75%{
+    background-position: right top;
+  }
+  100%{
+    background-position: left top;
+  }
+}
+
+.pic img{
+  display: block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.name{
+  color: #222;
+  font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  margin: 10px 0;
+  padding-bottom: 20px;
+  letter-spacing: 0.05em;
+}
+
+.desc{
+  margin: 10px 0;
+  font-size: 18px;
+  color: #00a82d;
+}
+
+.sm{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.sm a{
+  color: #222;
+  width: 56px;
+  font-size: 22px;
+  transition: .3s linear;
+}
+
+.sm a:hover{
+  color: #00a82d;
+}
+
+.contact-btn{
+    font-family: "Soleil_Bold",Helvetica,Arial,sans-serif;
+    display: inline-block;
+	margin-top: 36px;
+    height: 50px;
+    min-width: 250px;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .05em;
+    color: #00a82d;
+    border-radius: 3px;
+    border: 2px solid #00a82d;
+    padding: 4px 10px; 
+}
+
+.contact-btn:hover{
+	background: #00a82d;
+	color: #f2f2f2;
+}
+
+.divider-1{
+	border-bottom: 2px solid #DADADA;
+	background-color: #DADADA;
+	height: 1px;
+	margin: 0.5em 0px 1.5em;
+}
+
+.divider-1 span{
+	display: block;
+	width: 155px;
+	height: 2px;
+	background-color: #00a82d;
+}
+
+.divider-2{
+	border-bottom: 2px solid #DADADA;
+	background-color: #DADADA;
+	height: 1px;
+	margin: 0.5em 0px 1.5em;
+}
+
+.divider-2 span{
+	display: block;
+	width: 125px;
+	height: 2px;
+	background-color: #00a82d;
+}
