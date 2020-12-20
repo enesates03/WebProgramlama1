@@ -6,9 +6,9 @@
 Tasarlayan: Enes ATEŞ Öğretim Üyesi: Dr. Fehim KÖYLÜ
 
 # Dosyalar
-- 1.index.html
-- 2.about.html
-- 3.app.js
+- index.html
+- about.html
+- app.js
 - 4.style.css
 - 5.about.css
 - 6.font dosyası
