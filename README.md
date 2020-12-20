@@ -9,8 +9,8 @@ Tasarlayan: Enes ATEŞ Öğretim Üyesi: Dr. Fehim KÖYLÜ
 - index.html
 - about.html
 - app.js
-- 4.style.css
-- 5.about.css
+4. style.css
+5. about.css
 - 6.font dosyası
 - 7.img dosyası
 
